@@ -3,7 +3,7 @@
   "name": "NetworkHealthAgent",
   "type": "agent",
   "version": "1.0.0",
-  "description": "Agent for monitoring and detecting anomalies in network KPIs",
+  "description": "Agent for monitoring and detecting anomalies in network KPIs updated",
 
   "framework": {
     "agentFramework": "langgraph",
