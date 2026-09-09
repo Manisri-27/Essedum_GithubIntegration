@@ -1,0 +1,42 @@
+{
+  "id": "mcp-001",
+  "name": "PrometheusMCP",
+  "type": "mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing Prometheus metrics as tools",
+
+  "framework": {
+    "serverFramework": "fastapi",
+    "protocolSupport": ["http-stream", "sse"]
+  },
+
+  "entryPoint": "server/app.py",
+  "runtime": "python3.10",
+
+  "endpoints": [
+    {
+      "name": "queryMetrics",
+      "path": "/metrics/query",
+      "method": "GET",
+      "protocol": "http-stream"
+    },
+    {
+      "name": "subscribeAlerts",
+      "path": "/alerts/subscribe",
+      "method": "GET",
+      "protocol": "sse"
+    }
+  ],
+
+  "capabilities": [
+    "metrics_exposure",
+    "alert_streaming"
+  ],
+
+  "authentication": {
+    "type": "token",
+    "required": true
+  },
+
+  "owner": "team-observability"
+}

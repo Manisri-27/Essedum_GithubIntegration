@@ -1,0 +1,32 @@
+# MCP Server for TMF 645 Service Qualification API
+# Requirements for mcp-servicequal.py
+
+# Core MCP SDK (install from GitHub or PyPI)
+# Note: Install with: pip install mcp
+# Repository: https://github.com/modelcontextprotocol/python-sdk
+mcp
+
+# ASGI Server
+uvicorn==0.38.0
+
+# Web Framework
+starlette==0.50.0
+
+# HTTP Client
+httpx==0.28.1
+httpx-sse==0.4.3
+
+# Additional dependencies from venv
+anyio==4.8.0
+h11==0.14.0
+sniffio==1.3.1
+idna==3.10
+certifi==2025.8.3
+
+# Python Standard Library (included, but listed for documentation)
+# asyncio - async/await support
+# json - JSON serialization
+# logging - logging functionality
+# typing - type hints
+# datetime - date/time operations
+# uuid - UUID generation
