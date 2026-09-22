@@ -2,7 +2,7 @@
 """
 Main Entry Point - CLI for Langflow to Python ADK Workflow
 
-Loads design JSON, builds workflow, and executes interactive session.
+Loads design JSON, builds workflow, and executes interactive session..
 """
 
 import sys
