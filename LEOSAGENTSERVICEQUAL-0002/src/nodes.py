@@ -3,7 +3,7 @@
 Workflow Node Implementations
 
 Each function represents a node from the Langflow design JSON.
-Nodes receive WorkflowState and AppConfig, execute logic, and return updates as dict.
+Nodes receive WorkflowState and AppConfig, execute logic, and return updates as dict...
 """
 
 import logging
