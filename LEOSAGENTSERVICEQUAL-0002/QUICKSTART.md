@@ -4,7 +4,7 @@
 
 The TMF 645 service qualification agents have been successfully integrated into the LangGraph workflow system at `LEOSMPLG95195-leo1311/`.
 
-## Components Added
+## Components Added.
 
 ### 1. Node Functions ([src/nodes.py](src/nodes.py))
 
