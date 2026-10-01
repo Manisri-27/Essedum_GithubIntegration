@@ -2,7 +2,7 @@
 """
 Workflow State Definition
 
-Defines the WorkflowState Pydantic model that captures all data flowing through
+Defines the WorkflowState Pydantic model that captures all data flowing through..
 the workflow graph. Each node reads from and writes to this shared state.
 """
 
