@@ -13,7 +13,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class AppConfig(BaseSettings):
     """
-    Application configuration loaded from environment variables and .env file.
+    Application config loaded from environment variables and .env file.
     
     Supports dual Azure OpenAI / OpenAI configuration with validation.
     """
