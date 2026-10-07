@@ -1,6 +1,6 @@
 # file: src/config.py
 """
-Application Configuration
+Application Configuration...
 
 Manages environment variables and configuration settings using Pydantic v2 BaseSettings.
 Supports both Azure OpenAI and OpenAI with automatic fallback logic.
