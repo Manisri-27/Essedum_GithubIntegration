@@ -3,7 +3,7 @@
 vLLM Client for Local LLM Inference
 
 Provides a client for querying local vLLM endpoints as a replacement for OpenAI models.
-"""
+"""..
 
 import requests
 import json
