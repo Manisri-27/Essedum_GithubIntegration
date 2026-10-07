@@ -1,7 +1,7 @@
 # file: src/vllm_client.py
 """
 vLLM Client for Local LLM Inference
-
+verify
 Provides a client for querying local vLLM endpoints as a replacement for OpenAI models.
 """
 
