@@ -1,6 +1,6 @@
 # file: src/nodes.py
 """
-Workflow Node Implementations
+Workflow Node Implementations - checking Nodes
 
 Each function represents a node from the Langflow design JSON.
 Nodes receive WorkflowState and AppConfig, execute logic, and return updates as dict.
