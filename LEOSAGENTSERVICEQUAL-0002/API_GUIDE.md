@@ -1,6 +1,6 @@
 # API Usage Guide
 
-## Telecom Multi-Agent Q&A REST API
+## Telecom Multi-Agent Q&A REST API..
 
 Flask REST API server with two agents:
 1. **Validation Agent**: Validates if questions are telecom-related
