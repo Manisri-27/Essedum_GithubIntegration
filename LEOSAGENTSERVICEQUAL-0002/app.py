@@ -2,6 +2,7 @@
 # file: app.py
 """
 Flask REST API for Multi-Agent Telecom Q&A System with LangGraph Workflow
+python
 
 Provides REST endpoints for TMF 645 service qualification using LangGraph workflow.
 """
