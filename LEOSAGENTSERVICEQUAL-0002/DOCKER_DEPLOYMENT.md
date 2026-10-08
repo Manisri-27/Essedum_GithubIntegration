@@ -1,4 +1,4 @@
-# TMF 645 Service Qualification API - Docker Deployment
+# TMF 645 Service Qualification API - Docker Deployment information
 
 This directory contains Docker configuration for containerizing the TMF 645 Service Qualification API with LangGraph workflow.
 
