@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # file: src/qualifier_agent.py
 """
-Service Qualification Agent
+Service Qualification Agent..
 
 Determines if the service request can be fulfilled based on network capacity
 predictions from the MCP server (via HTTP) or federated learning API (port 8092).
